@@ -1,16 +1,48 @@
-# pokpookapp
+# PakPool Flutter UI
 
-A new Flutter project.
+Figma-inspired Flutter UI for the PakPool ride-sharing app.
 
-## Getting Started
+## Included
+- Splash
+- Onboarding
+- Login / Sign Up
+- Forgot Password / Account Confirmation
+- Home
+- Request Ride
+- Create Ride
+- My Rides
+- Chats
+- Profile
+- Edit Profile
+- Vehicle Information
+- Driver Registration
+- Saved Places
+- Safety Center
+- Notification Settings
+- Privacy Policy
+- Terms & Conditions
+- FAQs
+- Help & Support
+- About Us
 
-This project is a starting point for a Flutter application.
+## Project structure
 
-A few resources to get you started if this is your first Flutter project:
+```text
+lib/
+├── main.dart
+└── screens/
+    ├── common.dart
+    └── ...screen files
+assets/
+└── ...UI assets
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter clean
+flutter pub get
+flutter run
+```
+
+The project intentionally keeps the code simple and screen-focused for the internship UI implementation.
